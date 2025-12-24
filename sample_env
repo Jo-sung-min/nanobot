@@ -1,0 +1,7 @@
+ACCESS_KEY=액세스키어쩌구
+SECRET_KEY=액세스키시크릿
+BUCKET_NAME=님들버킷명 
+
+
+DB_CLIENT_ID= 몽고디비 샘플키 어쩌구
+DB_CLIENT_SECRET= 몽고디비 시크릿키 어쩌구
