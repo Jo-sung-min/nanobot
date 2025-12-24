@@ -10,7 +10,7 @@ export const authOptions = {
       clientSecret: process.env.DB_CLIENT_SECRET,
     }),
   ],
-  secret : 'qwer1234!@#$',
+  secret : process.env.JWT_SECRET,
   adapter : MongoDBAdapter(connectDB),
 };
 export default NextAuth(authOptions); 
